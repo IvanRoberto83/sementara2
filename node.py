@@ -39,3 +39,12 @@ class Node:
     
     def isExternal(self):
         return self._left is None and self._right is None
+    
+    def setLeft(self,data):
+        self._left = data
+    
+    def setRight(self,data):
+        self._right = data
+    
+    def setParent(self,data):
+        self._parent = data
